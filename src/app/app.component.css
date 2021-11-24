@@ -1,0 +1,27 @@
+main {
+  font-family: 'Montserrat' !important;
+  min-height: calc(100vh - 50px);
+  font-size: 15px;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+.stepper {
+  margin-top: 30%;
+  margin-left: 13%;
+}
+.page_title {
+  text-align: center;
+  width: 90%;
+  font-family: 'Montserrat' !important;
+  font-size: 16px;
+}
