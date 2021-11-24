@@ -12,7 +12,10 @@
       </ng-template>
 
       <mat-step label="Click Your Photo">
-        <div class="click_photo" onClick="">
+        <div
+          class="click_photo"
+          onclick="document.getElementById('pic').click()"
+        >
           <img class="swipe_icon" src="assets/scan.gif" />
           <input
             type="file"
@@ -21,6 +24,7 @@
             src="assets/scan.gif"
             capture="user"
             accept="image/*"
+            (change)="onFileSelected($event)"
           />
           <p>Click here to start Face Verification</p>
         </div>
